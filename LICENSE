@@ -1,0 +1,69 @@
+# iSenhas Source Available License (ISAL) v1.1
+
+Copyright (c) 2026 Davi Orzechowski
+
+## 1. Purpose
+
+This repository is publicly available to provide transparency,
+security auditing, and educational inspection of the iSenhas iOS client.
+
+This software is **source-available**, not open source.
+
+## 2. Permitted Use
+
+You are allowed to:
+
+* View and study the source code
+* Audit the security implementation
+* Compile and run the software for personal use
+* Report vulnerabilities or suggest improvements
+* Use limited portions of the code for non-commercial educational purposes
+
+## 3. Restrictions
+
+You may NOT:
+
+* Use this software or modified versions for commercial purposes
+* Create or distribute competing password manager applications
+* Publish applications derived from this code to any app store
+* Offer hosted or SaaS services based on this software
+* Redistribute modified versions under a different product identity
+* Remove copyright or license notices
+
+Commercial use requires explicit written permission from the copyright holder.
+
+## 4. Name and Branding
+
+The name "iSenhas", associated branding, and visual identity are
+reserved for the original project.
+
+Permission to use this name or represent derivative software as
+official iSenhas software is not granted.
+
+## 5. Backend and Infrastructure
+
+This repository intentionally excludes backend services,
+production APIs, infrastructure components, and operational systems.
+
+Reproducing production services is outside the scope of this license.
+
+## 6. Security Disclosure
+
+Security vulnerabilities must be reported privately to:
+
+[security@isenhas.com.br](mailto:security@isenhas.com.br)
+
+Public disclosure before coordinated remediation is discouraged.
+
+## 7. Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+## 8. License Changes
+
+The copyright holder reserves the right to modify or relicense
+future versions of this software.
+
+---
+
+iSenhas — Security Through Transparency

@@ -1,0 +1,132 @@
+##################################################
+# macOS
+##################################################
+
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+##################################################
+# Xcode
+##################################################
+
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/xcuserdata
+*.xcuserdatad
+*.xcuserstate
+xcuserdata/
+
+##################################################
+# Swift Package Manager
+##################################################
+
+.build/
+Packages/
+Package.resolved
+
+##################################################
+# CocoaPods
+##################################################
+
+Pods/
+Podfile.lock
+
+##################################################
+# Carthage
+##################################################
+
+Carthage/Build/
+
+##################################################
+# Fastlane
+##################################################
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+##################################################
+# Secrets & Configuration (CRITICAL)
+##################################################
+
+.env
+.env.*
+*.env
+Secrets.swift
+Config.swift
+Configuration.swift
+Environment.swift
+APIKeys.swift
+Credentials.swift
+
+*.xcconfig
+*.secret
+*.private
+*.key
+*.pem
+*.p12
+*.cer
+*.csr
+
+##################################################
+# Apple Signing / Provisioning
+##################################################
+
+*.mobileprovision
+*.provisionprofile
+
+##################################################
+# Firebase / Analytics
+##################################################
+
+GoogleService-Info.plist
+firebase.json
+
+##################################################
+# Logs
+##################################################
+
+*.log
+
+##################################################
+# Temporary files
+##################################################
+
+tmp/
+temp/
+.cache/
+
+##################################################
+# Archives
+##################################################
+
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+##################################################
+# IDEs
+##################################################
+
+.idea/
+.vscode/
+
+##################################################
+# Node (if any tooling exists)
+##################################################
+
+node_modules/
+npm-debug.log
+yarn-error.log
