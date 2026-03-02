@@ -35,7 +35,10 @@ We welcome responsible security research and community feedback.
 
 This public repository exists to provide **transparency and auditability** of the iSenhas iOS client.
 
-This repository is not intended to build a runnable application.
+This repository is provided for transparency and security auditing purposes.
+While the source code reflects the real client security implementation,
+it does not include proprietary infrastructure, production configuration,
+or signing assets required to build the official App Store release.
 It exists solely to document and expose the security architecture and cryptographic design of the iSenhas iOS client for independent review.
 
 Included in this repository:
@@ -56,7 +59,9 @@ Not included:
 * Internal operational tooling
 * UI/UX
 
-Some components of iSenhas are intentionally maintained in private repositories for operational security.
+Certain operational components remain private to protect service integrity,
+prevent abuse, and safeguard production infrastructure.
+This separation does not affect the verifiability of client-side security guarantees.
 
 ---
 
@@ -143,4 +148,4 @@ If reporting a vulnerability, please use responsible disclosure instead of openi
 
 ---
 
-**iSenhas — Security without compromise.**
+**iSenhas — Security that can be verified.**
