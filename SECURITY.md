@@ -28,7 +28,7 @@ The following systems are **out of scope**:
 
 If you discover a security vulnerability, please report it responsibly:
 
-📧 [security@isenhas.com.br](mailto:security@isenhas.com.br)
+📧 [davi@isenhas.com.br](mailto:davi@isenhas.com.br)
 
 Please include:
 
