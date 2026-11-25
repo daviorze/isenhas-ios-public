@@ -53,10 +53,10 @@ class Login:UIViewController {
         let salt = Data(base64Encoded: database["salt"] as? String ?? "") ?? Data()
         let derivated = SwiftHelper.deriveKeyPBKDF2(password: master?.text ?? "", salt: salt)
         globals.encryptionKey = derivated
-        SwiftHelper.saveVaultKeyToKeychain(key: derivated)
         /*Check if key can solve the challenge*/
         let result = SwiftHelper.decryptStringAES(challenge)
         if(result == "ok"){
+            SwiftHelper.saveVaultKeyToKeychain(key: derivated)
             if(newFingerPrintData.count != 0){
                 database["fingerPrint"] = newFingerPrintData
                 SwiftHelper.saveDatabase(database)
